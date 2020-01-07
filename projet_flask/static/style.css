@@ -1,0 +1,67 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:10pt;
+  margin:20px;
+}
+.main{
+  position: relative;
+}
+.glaciers{
+  position: absolute;
+  top:5px;
+  left:550px;
+  width:750px;
+  height: 600px;
+  border: 1px solid #666;
+}
+.sidebar{
+  position:absolute;
+  top:5px;
+  left: 0px;
+  width: 500px;
+  height: 570px;
+  background-color: #E0F8F1;
+  border: 1px solid #666;
+  padding: 15px;
+}
+.explication{
+margin-top: 0;
+font-size: 9pt;
+}
+.infobox{
+margin-top:30px;
+}
+table{
+font-size: 10pt;
+}
+td{
+min-width: 80px;
+}
+#coordonnees{
+position: absolute;
+left:550px;
+top: 615px;
+font-size:11px;
+}
+.copyright{
+position: absolute;
+bottom: 0px;
+font-size: 8pt;
+margin-bottom: 10px;
+}
+.recherche select {
+height: 28px;
+width: 100%;
+background-color: #CECEF6;
+bordel-color: #555;
+}
+.recherche select:focus{
+outline-color: #5da9dd;
+}
+.graph{
+/* position: absolute; */
+/* top: 630px;
+left: 20px;
+width: 600px;
+height: 400px;
+} */

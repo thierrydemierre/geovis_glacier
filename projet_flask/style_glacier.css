@@ -1,0 +1,17 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  margin: 20px;
+}
+
+.main{
+  position: relative;
+}
+
+.carte_glacier{
+  position: absolute;
+  top:10;
+  left:400;
+  width: 750px;
+  height:600px;
+}
